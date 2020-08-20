@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Axios-->
+    <script src='https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js'></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="mercado.css">
+    <title>Made in Roça</title>
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <div class="navbar">
+        <nav>
+            <img class='logo' src='logonavbar.gif'>
+        </nav>
+    </div>
+    <!--Container-->
+    <div class='container'>
+        <p> <button class='botao1'id='botaoContato'><img class='entrega' src='contato.svg'>CONTATO</button></p>
+        <p> <a href="file:///home/maryalua/Documentos/ARBYTE/Listas/projetomercadoarbyte/pagamento.html">
+                <button class='botao1' id='botaoFinalizarCompra' value='comprar'><img class='entrega' src='carrinho.svg'>
+                    FINALIZAR COMPRA - R$:
+                    <input type='number' class='resultado' name='resultado' id='resultado' value='0' disabled>
+                </button></a>
+        </p>
+    </div>
+    <!--Preço dos Produtos-->
+    <form>
+        <input type='hidden' id='precoLaranja' value='1.50'>
+        <input type='hidden' id='precoMaça' value='5.50'>
+        <input type='hidden' id='precoMelancia' value='2.20'>
+        <input type='hidden' id='precoMorango' value='10.00'>
+        <input type='hidden' id='precoCenoura' value='3.60'>
+        <input type='hidden' id='precoRepolho' value='1.00'>
+        <input type='hidden' id='precoAbobora' value='2.50'>
+        <input type='hidden' id='precoBrocolis' value='3.20'>
+        <input type='hidden' id='precoPimentao' value='4.97'>
+        <input type='hidden' id='precoVagem' value='1.90'>
+        <input type='hidden' id='precoTomate' value='2.30'>
+        <input type='hidden' id='precoAlface' value='2.30'>
+    </form>
+    <!--Produtos do Mercado-->
+    <div class="cards" id='divPai'></div>
+    <!--Rodapé-->
+    <footer>
+        <div class='rodape'>
+            <p><img class='rodapeimg' src='local.svg'> Fazenda Arbyte, São Paulo - SP </p>
+        </div>
+    </footer>
+    <!--JavaScript-->
+    <script src="funcoes.js"></script>
+    <script src='mercado.js'> </script>
+</body>
+
+</html>

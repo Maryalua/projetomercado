@@ -1,0 +1,79 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "LARANJA",
+      "preco": 1.5,
+      "foto": "laranja.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "MAÇÃ",
+      "preco": 5.5,
+      "foto": "maça.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "MELANCIA",
+      "preco": 2.2,
+      "foto": "melancia.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "MORANGO",
+      "preco": 10,
+      "foto": "morango.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "CENOURA",
+      "preco": 5.6,
+      "foto": "cenoura.jpg"
+    },
+    {
+      "id": 6,
+      "nome": "REPOLHO",
+      "preco": 1,
+      "foto": "repolho.jpg"
+    },
+    {
+      "id": 7,
+      "nome": "ABÓBORA",
+      "preco": 2.5,
+      "foto": "abobora.jpg"
+    },
+    {
+      "id": 8,
+      "nome": "BRÓCOLIS",
+      "preco": 3.2,
+      "foto": "brocolis.jpg"
+    },
+    {
+      "id": 9,
+      "nome": "PIMENTÃO",
+      "preco": 4.97,
+      "foto": "pimentao.jpg"
+    },
+    {
+      "id": 10,
+      "nome": "VAGEM",
+      "preco": 1.9,
+      "foto": "vagem.jpg"
+    },
+    {
+      "id": 11,
+      "nome": "TOMATE",
+      "preco": 2.3,
+      "foto": "tomate.jpg"
+    },
+    {
+      "id": 12,
+      "nome": "ALFACE",
+      "preco": 2.3,
+      "foto": "alface.jpg"
+    }
+  ],
+  "carrinho": [
+   
+  ]
+}

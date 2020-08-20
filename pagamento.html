@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Axios-->
+    <script src='https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js'></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="pagamento.css">
+    <title>Made in Roça</title>
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <div class="navbar">
+        <nav>
+            <img class='logo' src='logonavbar.gif'>
+        </nav>
+    </div>
+    <!--Container1-->
+    <div class='container1'>
+        <p> <a href="file:///home/maryalua/Documentos/ARBYTE/Listas/projetomercadoarbyte/index.html"><button class='botao1' id='botaoHome'>HOME</button></a></p>
+        <p> <button class='botao1' id='botaoContato'>CONTATO</button></p>
+    </div>
+    <!--Lista de Compras-->
+    <section>
+      <div>
+          <h2>PRODUTOS ADICIONADOS AO CARRINHO</h2>
+
+      </div>
+      <div>
+          <select name='compra' id='listaDeCompra' size='10'></select>
+
+      </div>
+      <div>
+      <p> <button class='botao2' id='botaoPagar'>PAGAR</button>  <input type='number' class='resultado' name='resultado' id='resultadopagamento' value='0' disabled></p>
+    </div>
+  </section>
+    
+    <!--Rodapé-->
+    <footer>
+        <div class='rodape'>
+            <p><img class='rodapeimg' src='local.svg'> Fazenda Arbyte, São Paulo - SP </p>
+        </div>
+    </footer>
+     <!--JavaScript-->
+     <script src="funcoes.js"></script>
+     <script src='pagamento.js'> </script>
+</body>
+
+</html>
